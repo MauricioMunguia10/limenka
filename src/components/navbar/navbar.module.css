@@ -1,8 +1,9 @@
 .header{
   box-shadow: 0 3px 2.5px 0px rgba(141, 140, 140, 0.3);
+  
 }
 .container{
-  max-width: 1300px;
+
   margin: auto;
   height: 84px;
   display: flex;
@@ -10,6 +11,8 @@
   align-items: center;
   width: 100%;
   background-color: white;
+  position: fixed;
+  z-index: 1;
 }
 
 .logo{

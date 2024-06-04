@@ -1,0 +1,40 @@
+.box{
+  flex-basis: 50%;
+  height: 50%;
+}
+.boxContainer:hover{
+  background: rgb(253, 212, 228);
+  transform: translateY(-13px);
+  transition: 0.3s;
+  box-shadow: rgba(32, 33, 36, 0.1) 0px 16px 40px;
+}
+.boxContainer{
+  background-color: rgb(247, 249, 251);
+  height: 100%;
+  padding: 10%;
+}
+.icon{
+  background: rgb(253, 212, 228);
+  width: 60px;
+  height: 60px;
+  -moz-box-pack: center;
+  justify-content: center;
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+  border-radius: 10px;
+  
+ 
+}
+.text{
+  background: rgb(253, 212, 228);
+  width: 40px;
+  height: 40px;
+  -moz-box-pack: center;
+  justify-content: center;
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+  border-radius: 10px;
+  color: aqua;
+}
