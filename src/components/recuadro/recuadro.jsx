@@ -8,7 +8,7 @@ const Recuadro = ({servicio}) => {
       <div className={styles.boxContainer}>
         <div className={styles.icon}>
           <svg className={styles.text} focusable="false" viewBox="0 0 24 24" aria-hidden="true">
-            <path d={arr.path}></path>
+            <path className={styles.path}d={arr.path}></path>
           </svg>
         </div>
         <div className={styles.video}>

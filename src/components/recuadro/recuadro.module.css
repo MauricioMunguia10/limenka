@@ -23,6 +23,7 @@
   -moz-box-align: center;
   align-items: center;
   border-radius: 10px;
+  color:aqua;
   
  
 }
@@ -36,5 +37,9 @@
   -moz-box-align: center;
   align-items: center;
   border-radius: 10px;
+
+}
+
+.path{
   color: aqua;
 }

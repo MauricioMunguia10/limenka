@@ -101,12 +101,12 @@ const Home = () => {
                   </svg>Soporte 24/7
                 </div>
                 <div className={styles.featureGreen}>
-                  <svg className={styles.featureGreenList} focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                  <svg className={styles.featureIcon} focusable="false" viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"></path>
                     </svg>Fácil y seguro de configurar
                   </div>
                   <div className={styles.featureBlue}>
-                    <svg className={styles.featureBlueList} focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                    <svg className={styles.featureIcon} focusable="false" viewBox="0 0 24 24" aria-hidden="true">
                       <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"></path>
                     </svg>Capacitaciones personalizada por expertos
                   </div>
@@ -123,7 +123,8 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-            </div>
+      </div>
+      
     </div>
   )
 }
